@@ -25,6 +25,7 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# Esta configuração está CORRETA
 INSTALLED_APPS = [
     "unfold",
     'django.contrib.admin',
@@ -33,6 +34,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # Apps de terceiros
+    'phonenumber_field',
+    
+    # Meus apps
     'core',
     'perfil',
 ]
